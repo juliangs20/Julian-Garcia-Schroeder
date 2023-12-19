@@ -1,0 +1,114 @@
+.mountainimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -5;
+}
+
+.bgimagediv {
+  height: 75vh;
+  width: 100%;
+}
+
+body {
+  background: rgb(32, 41, 38);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 41, 38, 1) 70%,
+    rgba(42, 55, 50, 1) 100%
+  );
+}
+
+h1 {
+  color: #202926;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.bio {
+  color: #202926;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.downarrow {
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.downarrowatag {
+  color: inherit;
+  opacity: 25%;
+}
+
+.downarrowatag:hover {
+  opacity: 100%;
+}
+
+.selfie {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px #85abb6;
+}
+
+.knowme {
+  color: #85abb6 !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.bio2 {
+  color: #85abb6;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+}
+
+.books {
+  border-radius: 10%;
+  box-shadow: 10px 10px;
+  object-fit: cover;
+}
+
+.heducation {
+  color: #85abb6 !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: capitalize;
+}
+
+.peducation {
+  color: #85abb6 !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .bio {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 720px) {
+  .bi-arrow-down-circle {
+    display: none;
+  }
+}
