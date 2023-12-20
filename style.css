@@ -62,40 +62,40 @@ h1 {
 
 .knowme {
   color: #85abb6 !important;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 4rem;
   text-transform: capitalize;
 }
 
 .bio2 {
   color: #85abb6;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
 }
 
 .books {
   border-radius: 10%;
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px 10px;
   object-fit: cover;
 }
 
 .heducation {
   color: #85abb6 !important;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-size: 4rem;
   text-transform: capitalize;
 }
 
 .peducation {
   color: #85abb6 !important;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .selfie {
+    width: 75%;
+  }
 }
 
 @media (max-width: 768px) {
