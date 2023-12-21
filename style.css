@@ -76,18 +76,31 @@ h1 {
   object-fit: cover;
 }
 
-.heducation {
+.herohead {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
   font-size: 4rem;
   text-transform: capitalize;
 }
 
-.peducation {
+.herotext {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
 }
+
+/* Title for the carousel
+.dtraveltitle {
+  justify-content: center;
+  align-items: center;
+}
+
+.htraveltitle {
+  color: #85abb6 !important;
+  font-family: "Dosis", sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+} */
 
 .carousel {
   box-shadow: 10px 10px 20px, 10px -10px 20px;
@@ -130,12 +143,38 @@ h1 {
   right: 20%;
 }
 
+.btn {
+  font-family: "Dosis", sans-serif;
+  text-transform: capitalize;
+}
+
 .link {
   color: #85abb6;
 }
 
 .link:hover {
   color: #69868f;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(133, 171, 182, 0),
+    rgba(133, 171, 182, 0.75),
+    rgba(133, 171, 182, 0)
+  );
+}
+
+.footer {
+  background-color: rgb(32, 41, 38);
+}
+
+.footername {
+  color: #85abb6 !important;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 992px) {
