@@ -23,8 +23,6 @@ body {
 h1 {
   color: #202926;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 5rem;
   text-transform: uppercase;
@@ -33,8 +31,6 @@ h1 {
 .bio {
   color: #202926;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Great Vibes", cursive;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 2rem;
   text-transform: capitalize;
@@ -60,11 +56,12 @@ h1 {
   box-shadow: 5px 5px 20px #85abb6;
 }
 
-.knowme {
+.whoami {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
   font-size: 4rem;
   text-transform: capitalize;
+  font-style: italic;
 }
 
 .bio2 {
@@ -90,6 +87,55 @@ h1 {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
+}
+
+.carousel {
+  box-shadow: 10px 10px 20px, 10px -10px 20px;
+}
+
+.camel {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: 0 13%;
+}
+
+.food {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: 100% 91%;
+}
+
+.barca {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  object-position: 0 0%;
+}
+
+.htravel {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.dsagrada {
+  bottom: 30rem !important;
+  right: 50%;
+}
+
+.dfood {
+  bottom: 30rem !important;
+  right: 20%;
+}
+
+.link {
+  color: #85abb6;
+}
+
+.link:hover {
+  color: #69868f;
 }
 
 @media (max-width: 992px) {
