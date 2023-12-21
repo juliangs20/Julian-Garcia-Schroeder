@@ -74,14 +74,14 @@
         <h2 class="whoami display-5 fw-bold text-body-emphasis">Who am I?</h2>
         <div class="col-lg-6 mx-auto">
           <p class="bio2 lead mb-4">
-            Just a (24 year old) kid from Phoenix, Arizona, looking to get into
-            front-end web development! As of right now I have only been coding
-            for about 3 months, but my long-term goal is to become a full stack
-            java engineer!
+            Just a 24 year old travel-junkie from Phoenix, Arizona, looking to
+            get into front-end web development! As of right now I have only been
+            coding for about 3 months, but my long-term goal is to become a full
+            stack java engineer!
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a
-              class="linkedin btn btn-primary btn-lg px-4 gap-3"
+              class="btn btn-primary btn-lg px-4 gap-3"
               href="https://www.linkedin.com/in/julian-garcia-schroeder-81271123a"
               role="button"
             >
@@ -100,7 +100,7 @@
               LinkedIn
             </a>
             <a
-              class="github btn btn-light btn-lg px-4"
+              class="btn btn-light btn-lg px-4"
               href="https://github.com/juliangs20"
               role="button"
             >
@@ -125,6 +125,11 @@
 
     <!-- Travel Photos -->
     <section id="Carousel">
+      <!-- Made a title for the carousel but I don't like how it looks
+      <div class="container d-flex dtraveltitle">
+        <h2 class="htraveltitle">Certified travelholic.</h2>
+      </div> -->
+
       <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -192,7 +197,7 @@
             <div class="container">
               <div class="carousel-caption text-end dfood">
                 <h2 class="htravel">
-                  Who doesn't enjoy a
+                  Fancy a
                   <span style="color: #ff0000 !important">sw</span>i<span
                     style="color: red"
                     >ss</span
@@ -222,29 +227,27 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="d-flex" style="justify-content: center; align-items: center">
+        <a
+          class="btn btn-outline-light btn-lg my-4 mx-3"
+          href="https://www.instagram.com/_juliangs_/?hl=en"
+          role="button"
+        >
+          Check out the rest of my adventures!
+        </a>
+      </div>
     </section>
 
     <!-- Education -->
     <section id="Education">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./images/education.jpg"
-              class="d-block mx-lg-auto img-fluid books"
-              alt="Bootstrap Themes"
-              width="700"
-              loading="lazy"
-            />
-          </div>
           <div class="col-lg-6">
-            <h2
-              class="heducation display-5 fw-bold text-body-emphasis lh-1 mb-3"
-            >
+            <h2 class="herohead display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Current Studies
             </h2>
-            <p class="lead peducation">
-              I am enrolled in a Full-Stack Java Engineer bootcamp, created by
+            <p class="lead herotext">
+              I am enrolled in a Full Stack Java Engineer bootcamp, created by
               Angela Yu, and am currently studying HTML and CSS. However, this
               course also goes over Bootstrap, Javascript, Web Design, jQuery,
               Unix command lines, Node.js, Express.js, React.js, EJS, APIs, SQL,
@@ -253,12 +256,100 @@
               <a href="https://github.com/juliangs20" class="link">Github</a>.
             </p>
           </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./images/education.jpg"
+              class="d-block mx-lg-auto img-fluid books"
+              alt="Books stacked on a table"
+              width="700"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </section>
 
+    <hr />
+
     <!-- Resume -->
-    <section id="Resume"></section>
+    <section id="Resume">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <a href="./images/resume.jpg" class="link">
+              <img
+                src="./images/resume.jpg"
+                class="d-block mx-lg-auto img-fluid books"
+                alt="Julian's resume"
+                width="700"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="herohead display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Resume
+            </h2>
+            <p class="lead herotext">
+              Feel free to take a look at my resume! Click on the image to view,
+              or click
+              <a
+                href="./images/Resumepdf.pdf"
+                class="link"
+                download="JulianResume"
+                >here</a
+              >
+              to download.
+            </p>
+
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <p class="herotext">
+              Add an input box to send a message (to my email)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="Footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top footer"
+        >
+          <div class="col-md-4 d-flex align-items-center px-5">
+            <span class="mb-3 mb-md-0 text-body-secondary footername"
+              >©Julian Garcia-Schroeder</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
