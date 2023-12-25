@@ -89,19 +89,6 @@ h1 {
   font-size: 1.5rem;
 }
 
-/* Title for the carousel
-.dtraveltitle {
-  justify-content: center;
-  align-items: center;
-}
-
-.htraveltitle {
-  color: #85abb6 !important;
-  font-family: "Dosis", sans-serif;
-  font-size: 4rem;
-  text-transform: capitalize;
-} */
-
 .carousel {
   box-shadow: 10px 10px 20px, 10px -10px 20px;
 }
@@ -139,7 +126,7 @@ h1 {
 }
 
 .dfood {
-  bottom: 30rem !important;
+  bottom: 29rem !important;
   right: 20%;
 }
 
@@ -174,7 +161,23 @@ hr {
 .footername {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.footerhouse {
+  color: #85abb6;
+}
+
+.footerhouse:hover {
+  opacity: 50%;
+}
+
+.mail {
+  color: #85abb6;
+}
+
+.mail:hover {
+  opacity: 50%;
 }
 
 @media (max-width: 992px) {
