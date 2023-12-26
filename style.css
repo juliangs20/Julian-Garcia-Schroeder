@@ -126,7 +126,7 @@ h1 {
 }
 
 .dfood {
-  bottom: 29rem !important;
+  bottom: 35rem !important;
   right: 20%;
 }
 
@@ -198,5 +198,17 @@ hr {
 @media (max-height: 720px) {
   .bi-arrow-down-circle {
     display: none;
+  }
+  .dsagrada {
+    bottom: 25rem !important;
+  }
+  .dfood {
+    bottom: 25rem !important;
+  }
+  .hfood {
+    font-size: 3rem;
+  }
+  .barca {
+    object-position: 100% 100%;
   }
 }
