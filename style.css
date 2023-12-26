@@ -202,6 +202,12 @@ hr {
   .dsagrada {
     bottom: 25rem !important;
   }
+  .hsagrada {
+    font-size: 3rem;
+    bottom: 20%;
+    right: 40%;
+    position: absolute;
+  }
   .dfood {
     bottom: 25rem !important;
   }
