@@ -56,6 +56,11 @@ h1 {
   box-shadow: 5px 5px 20px #85abb6;
 }
 
+.selfie:hover {
+  transition-duration: 1s;
+  transform: scale(1.1);
+}
+
 .whoami {
   color: #85abb6 !important;
   font-family: "Dosis", sans-serif;
