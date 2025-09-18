@@ -163,7 +163,14 @@ hr {
 }
 
 .footer {
-  background-color: rgb(32, 41, 38);
+  width: 100vw;
+  background-color: #19381F;   /* Use your preferred dark green */
+  border-top: 2px solid #fff;  /* White line */
+  left: 0;
+  margin: 0;
+  position: relative;          /* Use 'fixed' and add bottom: 0; if you want a sticky footer */
+  box-sizing: border-box;
+  z-index: 10;                 /* Keeps footer above other elements if necessary */
 }
 
 .footername {
